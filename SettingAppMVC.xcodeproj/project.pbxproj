@@ -18,6 +18,7 @@
 		16DB340B28D3D169005D5911 /* SettingWithSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB340A28D3D169005D5911 /* SettingWithSwitchCell.swift */; };
 		16DB340D28D3D1B5005D5911 /* SettingWithDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB340C28D3D1B5005D5911 /* SettingWithDetailCell.swift */; };
 		16DB340F28D3D1F8005D5911 /* SettingWithNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB340E28D3D1F8005D5911 /* SettingWithNotificationCell.swift */; };
+		16DB341128D3E6A4005D5911 /* SettingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DB341028D3E6A4005D5911 /* SettingDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		16DB340A28D3D169005D5911 /* SettingWithSwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingWithSwitchCell.swift; sourceTree = "<group>"; };
 		16DB340C28D3D1B5005D5911 /* SettingWithDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingWithDetailCell.swift; sourceTree = "<group>"; };
 		16DB340E28D3D1F8005D5911 /* SettingWithNotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingWithNotificationCell.swift; sourceTree = "<group>"; };
+		16DB341028D3E6A4005D5911 /* SettingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				16DB340A28D3D169005D5911 /* SettingWithSwitchCell.swift */,
 				16DB340C28D3D1B5005D5911 /* SettingWithDetailCell.swift */,
 				16DB340E28D3D1F8005D5911 /* SettingWithNotificationCell.swift */,
+				16DB341028D3E6A4005D5911 /* SettingDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				16DB33E628D3C5AF005D5911 /* AppDelegate.swift in Sources */,
 				16DB340628D3D07A005D5911 /* SettingSimpleCell.swift in Sources */,
 				16DB33E828D3C5AF005D5911 /* SceneDelegate.swift in Sources */,
+				16DB341128D3E6A4005D5911 /* SettingDetailView.swift in Sources */,
 				16DB340F28D3D1F8005D5911 /* SettingWithNotificationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
