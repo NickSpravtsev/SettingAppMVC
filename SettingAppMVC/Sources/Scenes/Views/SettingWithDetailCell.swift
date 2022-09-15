@@ -34,6 +34,7 @@ class SettingWithDetailCell: UITableViewCell {
     private lazy var iconImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.tintColor = .white
+        imageView.contentMode = .scaleAspectFit
 
         return imageView
     }()
