@@ -12,7 +12,7 @@ class SettingsController: UIViewController {
     // MARK: - Properties
     
     private var settingModel: [[SettingItem]]?
-    private var settingsView = SettingsView()
+    private let settingsView = SettingsView()
     
     // MARK: - Lifecycle
     
@@ -90,5 +90,9 @@ extension SettingsController: UITableViewDelegate, UITableViewDataSource {
         tableView.deselectRow(at: indexPath, animated: true)
         
         print("Нажата ячейка \"\(settingModel?[indexPath.section][indexPath.row].name ?? "")\"")
+
+        let viewController = DetailController()
+        viewController.settingItem = settingModel?[indexPath.section][indexPath.row]
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }
